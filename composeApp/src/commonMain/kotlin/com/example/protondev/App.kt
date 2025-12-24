@@ -680,7 +680,7 @@ fun ServicesSection() {
             horizontalArrangement = Arrangement.Center,
             verticalArrangement = Arrangement.spacedBy(16.dp),
             maxItemsInEachRow = 3,
-            modifier = Modifier.wrapContentWidth()
+            modifier = Modifier.fillMaxWidth()
         ) {
             services.forEach { service ->
                 HoverableServiceCard(service, modifier = Modifier.width(350.dp))
@@ -786,7 +786,7 @@ fun TechnologiesSection() {
             horizontalArrangement = Arrangement.Center,
             verticalArrangement = Arrangement.spacedBy(16.dp),
             maxItemsInEachRow = 4,
-            modifier = Modifier.wrapContentWidth()
+            modifier = Modifier.fillMaxWidth()
         ) {
             technologies.forEach { tech ->
                 Surface(
