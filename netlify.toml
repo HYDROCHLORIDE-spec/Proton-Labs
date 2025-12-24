@@ -1,6 +1,6 @@
 [build]
-  command = "export JAVA_HOME=/usr/lib/jvm/java-21-openjdk && export PATH=$JAVA_HOME/bin:$PATH && ./gradlew wasmJsBrowserDistribution"
+  command = "./gradlew wasmJsBrowserDistribution"
   publish = "composeApp/build/dist/wasmJs/productionExecutable"
 
 [build.environment]
-  JAVA_VERSION = "21"
+  JAVA_VERSION = "17"
