@@ -1,9 +1,0 @@
-[build]
-# Build command for Kotlin Compose JS
-command = "./gradlew jsBrowserDistribution"
-# Folder to publish (contains index.html and JS files)
-publish = "build/distributions"
-
-[build.environment]
-# Force Java 17 for Kotlin/WASM compatibility
-JAVA_HOME = "/opt/buildhome/.sdkman/candidates/java/17.0.10-tem"

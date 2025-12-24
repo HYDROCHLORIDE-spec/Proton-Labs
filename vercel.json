@@ -1,0 +1,5 @@
+{
+  "buildCommand": "./vercel-build.sh",
+  "outputDirectory": "composeApp/build/dist/wasmJs/productionExecutable",
+  "framework": null
+}
